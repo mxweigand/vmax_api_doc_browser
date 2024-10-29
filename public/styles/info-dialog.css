@@ -1,0 +1,53 @@
+dialog#info {
+    position: fixed;
+    bottom: 5%;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+    width: 50%; 
+    max-height: 80%;
+    z-index: 1; /* Sit on top */
+    border-radius: 20px;
+    border: 2px solid black;
+    overflow: auto; /* Enable scroll if needed */
+    font-size: 10px;
+    margin-left: 45%;
+}
+
+/* The Close Button */
+dialog#info button#close {
+    color: #480c0c;
+    background-color: #a71c1c;
+    float: right;
+    font-weight: bold;
+    border-radius: 20px;
+    border: 2px solid #480c0c;
+}
+
+/* div */
+dialog#info div#info-content {
+    overflow: auto; /* Enable scroll if needed */
+}
+
+/* Text */
+dialog#info div#info-content h1, dialog#info div#info-content h2, dialog#info div#info-content p {
+    color: white;
+    font-size: medium;
+}
+
+/* ok-button */
+dialog#info button#message-ok {
+    color: white;
+    background-color: #006528;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+}
+
+/* cancel-button */
+dialog#info button#message-cancel {
+    color: white;
+    background-color: #a71c1c;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+}

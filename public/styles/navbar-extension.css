@@ -1,0 +1,30 @@
+#navbar-extension button {
+  float: right;
+  /* margin: 0 10px 0 10px; */
+  text-decoration: none;
+  padding: 2px 4px;
+  /* margin: 5px; */
+  background-color: #4D7A97;
+  color: white;
+  border-radius: 0px;
+  border: 2px solid white;
+  /* display: inline-block; */
+  cursor: pointer;
+  line-height: 17px;
+  border-right-width: 0px;
+}
+
+#navbar-extension button.last-button {
+  margin-right: 10px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-right-width: 2px;
+}
+
+#navbar-extension button.first-button {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  background-color:white;
+  color: #4D7A97;
+  font-size: 24px;
+}
